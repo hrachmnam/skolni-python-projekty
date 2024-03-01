@@ -1,6 +1,10 @@
 import math
-print("zadej délku strany A")
+print("zadej délku strany A:")
 str_a = int(input())
-print("zadej délku starny B")
+print("zadej délku starny B:")
 str_b = int(input())
-str_c = math.sqrt() 
+sqrt_a = (str_a * str_a)
+sqrt_b = (str_b * str_b)
+str_c = math.sqrt(sqrt_a + sqrt_b)
+print("délka strany C je:")
+print(str_c)
