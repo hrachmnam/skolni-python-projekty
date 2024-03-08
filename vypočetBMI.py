@@ -1,6 +1,6 @@
 print("Dobrý den")
 print("Tento program určí vaše BMI(body mass index)")
-print("")
+print("*" * 44)
 print("zadejte vaši výšku v cm")
 height_in_cm = int(input())
 print("zadejte vaši hmotnost v kg")
