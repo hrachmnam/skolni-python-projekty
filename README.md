@@ -1,4 +1,17 @@
 # python-projekty
-these are my projects for my IT class
+-----
+## deleni_dvou_cisel.py
+###CZ
+vydělí dělenec dělitelem
+- když je alespoň jedna hodnota 0 tak napíše ERROR
+- když není ani jedna hodnota 0 tak napíše výsledek na 5 desetiných čísel
 
-toto jsou moje projekty do hodin informatiky
+## humoreska_kalkulator.py
+
+## obdelnik.py
+
+## prepona_trojuhelniku.py
+
+## urcovani_cisel.py
+
+## vypočet_BMI.py
