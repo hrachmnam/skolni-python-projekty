@@ -1,0 +1,38 @@
+# 1. Zadáte číslo a otestujte ho, zda je liché nebo sudé
+print("Zadejte celé číslo: ")
+cislo = int(input())
+
+if cislo % 2 == 0:
+    print(f"Číslo {cislo} je sudé.")
+else:
+    print(f"Číslo {cislo} je liché.")
+
+# Oddělovací řádek
+print("------------------------")
+
+# 2. Vypíšete čísla pomocí cyklu (včetně čárek a tečky)
+print("Čísla včetně čárek a tečky:")
+for i in range(5, 51, 5):
+    if i == 50:
+        print(i, end=".\n")
+    else:
+        print(i, end=", ")
+
+# Oddělovací řádek
+print("------------------------")
+
+# 3. Zadáte 10 celých nenulových čísel a spočítáte, kolik z nich je kladných a kolik záporných
+kladna = 0
+zaporna = 0
+
+print("Zadejte 10 celých nenulových čísel:")
+
+for _ in range(10):
+    cislo = int(input())
+    if cislo > 0:
+        kladna += 1
+    elif cislo < 0:
+        zaporna += 1
+
+print(f"Počet kladných čísel: {kladna}")
+print(f"Počet záporných čísel: {zaporna}")
